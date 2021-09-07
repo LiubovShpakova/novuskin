@@ -1,1 +1,3 @@
 # novuskin
+
+only desktop

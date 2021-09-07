@@ -1,0 +1,180 @@
+.footer {
+    min-height      : 535px;
+    background-color: #2e333c;
+}
+
+.footer_box {
+    padding-top: 68px;
+}
+
+.footer_logo {
+    display: block;
+    width  : 267px;
+    height : 31px;
+    padding: 0px;
+    margin : auto;
+}
+
+.footer_socialnetworks {
+    display        : flex;
+    justify-content: center;
+    padding        : 0;
+    margin         : 37px 0 39px 0;
+}
+
+.footer_socialnetworks_item {
+    display     : block;
+    margin-right: 48px;
+}
+
+.footer_socialnetworks_item:nth-child(5) {
+    margin-right: 0px;
+}
+
+.footer_info {
+    display: flex;
+    padding: 0;
+    margin : 0;
+}
+
+.footer_info_title {
+    font-size     : 14px;
+    letter-spacing: 0px;
+    color         : #ffffff;
+    font-weight   : 500;
+    font-family   : "Montserrat";
+    display       : inline-block;
+    text-transform: uppercase;
+    margin        : 0 auto;
+    padding       : 30px 0 0 0;
+}
+
+.footer_info_item_box {
+    padding: 0;
+}
+
+.footer_info_item_text {
+    font-size      : 12px;
+    letter-spacing : 0px;
+    color          : #ffffff;
+    font-weight    : 400;
+    font-family    : "Open Sans";
+    list-style-type: none;
+    text-transform : capitalize;
+    margin         : 22px 0;
+}
+
+.footer_info_item_text:nth-child(4) {
+    margin-bottom: 0px;
+}
+
+.footer_info_block {
+    list-style-type: none;
+}
+
+.footer_info_item_textUp {
+    font-size      : 12px;
+    letter-spacing : 0px;
+    color          : #ffffff;
+    font-weight    : 400;
+    font-family    : "Open Sans";
+    list-style-type: none;
+    text-transform : uppercase;
+    margin         : 22px 0;
+}
+
+.footer_info_block_cons {
+    max-width       : 309px;
+    min-height      : 172px;
+    background-color: #e2b29a;
+    margin          : 0px 0px 22px 0px;
+    padding         : 31px 5px 0px 39px;
+}
+
+.footer_info_block_cons_title {
+    font-size     : 14px;
+    letter-spacing: 0px;
+    color         : #48443e;
+    font-weight   : 500;
+    font-family   : "Montserrat";
+    text-transform: uppercase;
+    margin        : 0px 0px 21px 0px;
+}
+
+.footer_info_block_cons_text {
+    font-size     : 12px;
+    letter-spacing: 0px;
+    line-height   : 16px;
+    color         : #48443e;
+    font-weight   : 400;
+    margin        : 0px 0px 15px 0px;
+}
+
+.footer_info_block_cons_btn {
+    background-color: #2e333c;
+    font-size       : 14px;
+    letter-spacing  : 0px;
+    color           : #ffffff;
+    font-weight     : 500;
+    font-family     : "Montserrat";
+    text-transform  : uppercase;
+    padding         : 17px;
+    border          : none;
+    margin          : 0px 0px 22px 0px;
+}
+
+.footer_info_block_cons_form_label {
+    font-size     : 14px;
+    letter-spacing: 0px;
+    color         : #ffffff;
+    font-weight   : 500;
+    font-family   : "Montserrat";
+    text-transform: uppercase;
+    display       : block;
+    margin        : 0px 0px 16px 39px;
+}
+
+.footer_info_block_cons_form_box {
+    display: block;
+}
+
+.footer_info_block_cons_form_input {
+    width           : 134px;
+    margin-top      : 20px;
+    background-color: transparent;
+    border          : 1px solid #000001;
+    padding         : 17px 17px 15px 9px;
+    font-size       : 12px;
+    letter-spacing  : 0px;
+    color           : #ffffff;
+    font-weight     : 400;
+    font-family     : "Open Sans";
+}
+
+.footer_info_block_cons_form_btn {
+    background-color: #000001;
+    font-size       : 14px;
+    letter-spacing  : 0px;
+    color           : #ffffff;
+    font-weight     : 500;
+    font-family     : "Montserrat";
+    cursor          : pointer;
+    text-transform  : uppercase;
+    border          : 1px solid #000001;
+    padding         : 16px 18px;
+}
+
+.footer_navproducts {
+    border-top: 2px solid rgba(252, 250, 248, .25);
+    padding   : 20px 0px;
+    display   : flex;
+}
+
+.footer_nav_block {
+    font-size     : 12px;
+    letter-spacing: 0px;
+    color         : #ffffff;
+    font-weight   : 400;
+    font-family   : "Open Sans";
+    margin-right  : 35px;
+}

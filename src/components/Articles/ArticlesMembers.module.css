@@ -1,0 +1,155 @@
+.articles_box {
+  padding: 0px 30px 92px 30px;
+}
+
+.articles_title {
+  font-size     : 32px;
+  letter-spacing: 0px;
+  color         : #48443e;
+  font-weight   : 600;
+  font-family   : 'Montserrat';
+  text-transform: uppercase;
+  margin        : 0px 0px 47px 0px;
+}
+
+.articles_slider {
+  padding: 0px 0px 0px 0px;
+}
+
+.articles_slider_item {
+  padding: 0px 15px;
+}
+
+.articles_img {
+  max-width    : 251px;
+  border-radius: 15px;
+  margin       : 0px 0px 26px 0px;
+}
+
+.articles_slider_title {
+  font-size     : 14px;
+  letter-spacing: 0px;
+  color         : #e2b29a;
+  font-weight   : 500;
+  font-family   : 'Montserrat';
+  text-transform: uppercase;
+  margin        : 0px 0px 17px 0px;
+}
+
+.articles_slider_text {
+  max-width     : 249px;
+  font-size     : 12px;
+  letter-spacing: 0px;
+  line-height   : 16px;
+  color         : #48443e;
+  font-weight   : 400;
+  font-family   : 'Open Sans';
+  margin        : 0px 0px 22px 0px;
+}
+
+.articles_slider_button {
+  font-size       : 12px;
+  letter-spacing  : 0px;
+  line-height     : 18px;
+  color           : #48443e;
+  font-weight     : 400;
+  font-family     : 'Open Sans';
+  border          : none;
+  background-color: transparent;
+  display         : flex;
+  margin          : 22px 0px 0px 0px;
+}
+
+.articles_slider_arrow {
+  display         : inline-flex;
+  width           : 17px;
+  height          : 10px;
+  padding         : 0px;
+  margin          : 4px 0px 0px 19px;
+  background-image: url(../../res/images/icons/right-arrow.svg);
+}
+
+.articles_slider_arrow_less {
+  display         : inline-flex;
+  transform       : rotate(180deg);
+  width           : 17px;
+  height          : 10px;
+  padding         : 0px;
+  margin          : 4px 0px 0px 19px;
+  background-image: url(../../res/images/icons/right-arrow.svg);
+}
+
+.logotype {
+  display         : flex;
+  align-items     : center;
+  background-color: rgba(239, 203, 187, 0.4);
+  min-height      : 228px;
+}
+
+.logotype_box {
+  display        : flex;
+  flex-wrap      : wrap;
+  align-items    : center;
+  justify-content: center;
+
+}
+
+.logotype_box img {
+  width       : auto;
+  margin-right: 20px;
+}
+
+.members {
+  display        : flex;
+  align-items    : center;
+  min-height     : 307px;
+  justify-content: space-between;
+}
+
+.members_title {
+  font-size     : 32px;
+  letter-spacing: 0px;
+  color         : #e2b29a;
+  font-weight   : 500;
+  font-family   : "Montserrat";
+  text-transform: uppercase;
+}
+
+.members_logo {
+  display         : block;
+  width           : 290px;
+  height          : 34px;
+  padding         : 0px;
+  background-image: url(../../res/images/icons/logonovuskin_black.svg);
+
+}
+
+.members_box_line {
+  width           : 1px;
+  height          : 166px;
+  background-color: #e1b199;
+}
+
+.members_box_text {
+  font-size     : 20px;
+  letter-spacing: 0px;
+  line-height   : 24px;
+  color         : #48443e;
+  font-weight   : 500;
+  font-style    : italic;
+  font-family   : "Montserrat";
+}
+
+.members_button {
+  font-size       : 14px;
+  letter-spacing  : 0px;
+  color           : #ffffff;
+  font-weight     : 500;
+  font-family     : 'Montserrat';
+  text-align      : center;
+  text-align      : center;
+  border          : none;
+  padding         : 18px 31px 16px 30px;
+  background-color: #efcbbb;
+  text-transform  : uppercase;
+}

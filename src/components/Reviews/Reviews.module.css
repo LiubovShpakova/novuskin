@@ -1,0 +1,105 @@
+.reviews_box {
+  position        : relative;
+  background-color: rgba(239, 203, 187, 0.4);
+  min-height      : 503px;
+  margin-bottom   : 67px;
+  padding         : 80px 0px 45px 0px;
+
+}
+
+.reviews_title_show {
+  position      : absolute;
+  font-size     : 32px;
+  letter-spacing: 0px;
+  color         : #48443e;
+  font-weight   : 600;
+  font-family   : 'Montserrat';
+  text-transform: uppercase;
+  margin        : 0px 72px 0px 0px;
+  display       : inline-block;
+  vertical-align: top;
+}
+
+.reviews_title {
+  font-size     : 32px;
+  letter-spacing: 0px;
+  color         : rgba(239, 203, 187, 0.0);
+  font-weight   : 600;
+  font-family   : 'Montserrat';
+  text-transform: uppercase;
+  margin        : 0px 72px 0px 0px;
+  display       : inline-block;
+  vertical-align: top;
+}
+
+.reviews_block {
+  display: inline-block;
+}
+
+.reviews_slider {
+  display: block;
+}
+
+.reviews_quoters {
+  display       : inline-block !important;
+  vertical-align: top;
+  width         : 26px;
+}
+
+.reviews_slider_text {
+  max-width     : 722px;
+  min-height    : 93px;
+  font-size     : 16px;
+  letter-spacing: 0px;
+  line-height   : 27px;
+  color         : #48443e;
+  font-weight   : 400;
+  font-family   : "Montserrat";
+  text-align    : center;
+  text-transform: uppercase;
+  display       : inline-block;
+  margin        : 42px 0px 66px 0px;
+
+}
+
+.reviews_box_name {
+  display        : flex;
+  justify-content: center;
+  margin         : 0px 0px 31px 0px;
+}
+
+.reviews_img {
+  max-width    : 148px;
+  max-height   : 148px;
+  border-radius: 15px;
+  margin       : 0px 45px 0px 0px;
+}
+
+.reviews_box_stars {
+  margin: auto 0px;
+}
+
+.reviews_star {
+  margin : 0;
+  padding: 4px;
+}
+
+.reviews_star_item {
+  display     : inline-block;
+  margin-right: 5px;
+}
+
+.reviews_star_img {
+  width : 26px;
+  height: 26px;
+
+}
+
+.reviews_slider_autor {
+  font-size     : 14px;
+  letter-spacing: 0px;
+  color         : #48443e;
+  font-weight   : 500;
+  font-family   : "Montserrat";
+  text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.53ba09f7.chunk.css",
+    "main.js": "/static/js/main.e0e3e1b7.chunk.js",
+    "main.js.map": "/static/js/main.e0e3e1b7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.078062aa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.078062aa.js.map",
+    "static/js/2.0ac4f1c4.chunk.js": "/static/js/2.0ac4f1c4.chunk.js",
+    "static/js/2.0ac4f1c4.chunk.js.map": "/static/js/2.0ac4f1c4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.53ba09f7.chunk.css.map": "/static/css/main.53ba09f7.chunk.css.map",
+    "static/js/2.0ac4f1c4.chunk.js.LICENSE.txt": "/static/js/2.0ac4f1c4.chunk.js.LICENSE.txt",
+    "static/media/article_beauty.f25babdd.jpg": "/static/media/article_beauty.f25babdd.jpg",
+    "static/media/Hero.module.css": "/static/media/background_med_spa_image.9507e687.jpg",
+    "static/media/Header.module.css": "/static/media/searchicon.1e10eaeb.svg",
+    "static/media/ArticlesMembers.module.css": "/static/media/logonovuskin_black.2ab46df9.svg",
+    "static/media/Consult.module.css": "/static/media/popular-treatments.6de0f048.jpg",
+    "static/media/quotes.a1fcf45a.svg": "/static/media/quotes.a1fcf45a.svg",
+    "static/media/Treatments.module.css": "/static/media/right-arrow.95f6a849.svg",
+    "static/media/star-full.7040b4e5.svg": "/static/media/star-full.7040b4e5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.078062aa.js",
+    "static/js/2.0ac4f1c4.chunk.js",
+    "static/css/main.53ba09f7.chunk.css",
+    "static/js/main.e0e3e1b7.chunk.js"
+  ]
+}
