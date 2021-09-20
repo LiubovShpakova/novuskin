@@ -8,6 +8,7 @@ import Reviews from '../components/Reviews/Reviews'
 import Articles from '../components/Articles/ArticlesMembers'
 import NovuskinFooter from '../components/Footer/NovuskinFooter'
 import Modal from '../components/Modal/modal'
+import ButtonBackToTop from '../components/ButtonBackToTop/ButtonBackToTop'
 
 const MainView = () => {
   const [isOpenModal, setIsOpenModal] = useState(false)
@@ -28,6 +29,7 @@ const MainView = () => {
       <Articles />
       <NovuskinFooter />
       {isOpenModal && <Modal onClose={handleCloseModal} />}
+      <ButtonBackToTop />
     </>
   )
 }

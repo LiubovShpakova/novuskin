@@ -1,49 +1,60 @@
 .hero_banner {
-  max-width       : 1250px;
-  min-height      : 571px;
+  max-width: 1250px;
+  min-height: 571px;
   background-image: url(../../res/images/background_banner_image.jpg);
-  margin-bottom   : 47px;
+  margin-bottom: 47px;
 }
 
 .hero_text {
-  padding-left : 744px;
-  padding-top  : 236px;
+  /* padding-left: 744px; */
+  padding-left: 60%;
+  padding-top: 236px;
   margin-bottom: 141px;
 }
 
 .hero_title {
-  height        : 18px;
-  font-size     : 32px;
+  height: 18px;
+  font-size: 32px;
   letter-spacing: 0px;
-  color         : #48443e;
-  font-weight   : 600;
-  font-family   : 'Montserrat';
+  color: #48443e;
+  font-weight: 600;
+  font-family: 'Montserrat';
   text-transform: uppercase;
-}
+  margin: 0;
+  margin-bottom: 20px;
+  }
 
 .hero_title_bold {
-  height        : 30px;
-  font-size     : 41px;
+  height: 30px;
+  font-size: 41px;
   letter-spacing: 0px;
-  color         : #48443e;
-  font-weight   : 700;
-  font-family   : 'Montserrat';
+  color: #48443e;
+  font-weight: 700;
+  font-family: 'Montserrat';
   text-transform: uppercase;
-}
+  margin: 0;
+  margin-bottom: 34px;
+  }
 
 .hero_button {
-  font-size       : 14px;
-  letter-spacing  : 0px;
-  color           : #ffffff;
-  font-weight     : 500;
-  font-family     : 'Montserrat';
-  text-align      : center;
-  text-align      : center;
-  border          : none;
-  padding         : 18px 31px 16px 30px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  text-align: center;
+  text-align: center;
+  border: none;
+  padding: 18px 31px 16px 30px;
+  background-color: #e2b29a;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  margin: 0;
+}
+
+.hero_button:hover {
   background-color: #efcbbb;
-  text-transform  : uppercase;
-  cursor          : pointer;
 }
 
 .hero_text_bottom {
@@ -51,16 +62,16 @@
 }
 
 .hero_title_bottom {
-  display       : inline-flex;
-  padding       : 15px 260px 13px;
-  margin        : 0px;
+  display: inline-flex;
+  padding: 15px 260px 13px;
+  margin: 0px;
   text-transform: uppercase;
-  font-size     : 14px;
+  font-size: 14px;
   letter-spacing: 1px;
-  color         : #ffffff;
-  font-weight   : 500;
-  font-family   : 'Montserrat';
-  text-align    : center;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  text-align: center;
 }
 
 .hero_medspa {
@@ -68,87 +79,92 @@
 }
 
 .hero_medspa_girlbox {
-  padding-left : 318px;
-  padding-top  : 121px;
+  padding-left: 318px;
+  padding-top: 121px;
   padding-right: 56px;
-  text-align   : center;
+  text-align: center;
 }
 
 .hero_medspa_girl {
-  width           : 717px;
-  height          : 523px;
+  width: 717px;
+  height: 523px;
   background-image: url(../../res/images/background_med_spa_image.jpg);
-  margin-bottom   : 47px;
+  margin-bottom: 47px;
 }
 
 .hero_medspa_girltitle {
-  font-size     : 32px;
+  font-size: 32px;
   letter-spacing: 0px;
-  color         : #48443e;
-  font-weight   : 600;
-  font-family   : 'Montserrat';
+  color: #48443e;
+  font-weight: 600;
+  font-family: 'Montserrat';
   text-transform: uppercase;
-  margin        : 0px;
+  margin: 0px;
   padding-bottom: 34px;
 }
 
 .hero_medspa_girltext {
-  font-size     : 12px;
+  font-size: 12px;
   letter-spacing: 0px;
-  line-height   : 16px;
-  color         : #48443e;
-  font-weight   : 400;
-  font-family   : 'Open Sans';
-  display       : flex;
-  text-align    : justify;
-  margin        : 0px;
+  line-height: 16px;
+  color: #48443e;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  display: flex;
+  text-align: justify;
+  margin: 0px;
   padding-bottom: 23px;
 }
 
 .hero_medspa_text {
-  margin-left     : 25px;
-  margin-top      : 71px;
-  width           : 399px;
-  height          : 354px;
+  margin-left: 25px;
+  margin-top: 71px;
+  width: 399px;
+  height: 354px;
   background-color: rgba(239, 203, 187, 0.4);
-  display         : block;
-  text-align      : center;
+  display: block;
+  text-align: center;
 }
 
 .hero_medspa_texttitle {
-  font-size     : 24px;
+  font-size: 24px;
   letter-spacing: 0px;
-  color         : #48443e;
-  font-weight   : 600;
-  font-family   : 'Montserrat';
+  color: #48443e;
+  font-weight: 600;
+  font-family: 'Montserrat';
   text-transform: uppercase;
-  margin        : 0px auto;
-  padding       : 82px 0px 27px 0;
+  margin: 0px auto;
+  padding: 82px 0px 27px 0;
 }
 
 .hero_medspa_textparag {
-  font-size     : 12px;
+  font-size: 12px;
   letter-spacing: 0px;
-  line-height   : 16px;
-  color         : #48443e;
-  font-weight   : 400;
-  font-family   : 'Open Sans';
-  text-align    : center;
-  margin        : 0px auto;
-  max-width     : 178px;
+  line-height: 16px;
+  color: #48443e;
+  font-weight: 400;
+  font-family: 'Open Sans';
+  text-align: center;
+  margin: 0px auto;
+  max-width: 178px;
 }
 
 .hero_medspa_buttonblack {
-  font-size       : 14px;
-  letter-spacing  : 0px;
-  color           : #ffffff;
-  font-weight     : 500;
-  font-family     : 'Montserrat';
-  text-align      : center;
-  border          : none;
-  padding         : 18px 17px 16px 17px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  text-align: center;
+  border: none;
+  padding: 18px 17px 16px 17px;
   background-color: #2e333c;
-  text-transform  : uppercase;
-  margin-top      : 67px;
-  cursor          : pointer;
+  text-transform: uppercase;
+  margin-top: 67px;
+  cursor: pointer;
+  transition: 0.5s all ease;
+}
+
+.hero_medspa_buttonblack:hover {
+  background-color: rgba(46, 51, 60, 0.5);
 }

@@ -8,6 +8,28 @@ import Img4 from './Platinum-member-2-after.jpg'
 import Img4B from './Platinum-member-2-before.jpg'
 
 const imagesResults = [
+ 
+  {
+    image: Img1,
+    imageBefore: Img1B,
+    title: 'Platinum member',
+    titleBefore: 'Platinum member',
+    text: '',
+  },
+  {
+    image: Img2,
+    imageBefore: Img2B,
+    title: 'Golden member',
+    titleBefore: 'Golden member',
+    text: '',
+  },
+  {
+    image: Img3,
+    imageBefore: Img3B,
+    title: 'Silver member',
+    titleBefore: 'Silver member',
+    text: '',
+  },
   {
     image: Img4,
     imageBefore: Img4B,
@@ -34,6 +56,13 @@ const imagesResults = [
     imageBefore: Img3B,
     title: 'Silver member',
     titleBefore: 'Silver member',
+    text: '',
+  },
+  {
+    image: Img4,
+    imageBefore: Img4B,
+    title: 'Platinum member',
+    titleBefore: 'Platinum member',
     text: '',
   },
 ]

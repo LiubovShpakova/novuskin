@@ -83,10 +83,15 @@ img {
   font-size: 10px;
 }
 
-.slick-slider {
+.treatments_slider {
+  padding: 54px 0px 0px 187px;
+}
+
+.treatments_slider>.slick-slider {
   z-index: 5;
 }
 
 .slick-current {
   filter: none;
 }
+

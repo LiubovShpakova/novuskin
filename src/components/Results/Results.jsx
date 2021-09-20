@@ -53,8 +53,10 @@ export default function Results(props) {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3.999999,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    speed: 2500,
+    cssEase: 'ease',
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }
@@ -74,12 +76,14 @@ export default function Results(props) {
                     src={e.image}
                     alt={e.title}
                   />
-                  <p className={styles.results_imgTitleAfter}>after</p>
                   <img
                     className={styles.results_imgBefore}
                     src={e.imageBefore}
                     alt={e.titleBefore}
                   />
+
+                  <p className={styles.results_imgTitleAfter}>after</p>
+
                   <p className={styles.results_imgTitleBefore}>before</p>
                 </div>
 

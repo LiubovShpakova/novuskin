@@ -53,11 +53,11 @@ export default function Treatments(props) {
   const settings = {
     dots: false,
     infinite: true,
-    slidesToShow: 3.999999,
-    slidesToScroll: 1,
-    // slickGoTo: true,
-    // initialSlide: 2,
-    // centerPadding: '50px',
+    cssEase: 'ease',
+    speed: 2500,
+    slidesToScroll: 4,
+    slidesToShow: 4,
+    continuousSliding: false,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }
@@ -68,7 +68,7 @@ export default function Treatments(props) {
         <Conteiner>
           <h2 className={styles.treatments_title}>OUR TREATMENTS</h2>
           <div className={styles.treatments_title_white}></div>
-          <div className={styles.treatments_slider}>
+          <div className="treatments_slider">
             <Slider {...settings}>
               {imagesTreatments.map((e, i) => (
                 <div className={styles.treatments_slider_item} key={i}>

@@ -28,10 +28,15 @@
     font-family     : "Montserrat";
     text-align      : center;
     border          : none;
-    padding         : 18px 10px 16px 26px;
+    padding         : 17px 18px;
     background-color: #efcbbb;
     text-transform  : uppercase;
     cursor          : pointer;
+    transition      : .5s all ease;
+}
+
+.header_button:hover {
+    background-color: #e2b29a;
 }
 
 .header_buttonblack {
@@ -46,6 +51,12 @@
     background-color: #2e333c;
     text-transform  : uppercase;
     cursor          : pointer;
+    transition      : .5s all ease;
+}
+
+.header_buttonblack:hover {
+    background-color: rgba(46, 51, 60, .5);
+    ;
 }
 
 .header_linkteam {

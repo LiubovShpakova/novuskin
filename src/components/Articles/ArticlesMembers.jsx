@@ -56,9 +56,12 @@ export default function Articles(props) {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
-    slidesToShow: 3.99999999,
-    slidesToScroll: 1,
+    cssEase: 'ease',
+    // autoplay: true,
+    // autoplaySpeed: 1000,
+    speed: 2500,
+    slidesToScroll: 4,
+    slidesToShow: 4,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }

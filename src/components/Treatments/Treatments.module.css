@@ -27,11 +27,18 @@
 }
 
 .treatments_img {
-  max-width        : 251px;
-  border-radius    : 15px;
-  margin           : 0px 0px 35px 0px;
-  /* -webkit-filter: grayscale(100%);
-  filter           : grayscale(100%); */
+  max-width     : 251px;
+  border-radius : 15px;
+  margin        : 10px 10px 35px 10px;
+  transition    : .5s all ease;
+  -webkit-filter: grayscale(100%);
+  filter        : grayscale(100%);
+}
+
+.treatments_img:hover,
+.treatments_img:focus {
+  filter   : none;
+  transform: scale(1.1);
 }
 
 .treatments_slider_title {

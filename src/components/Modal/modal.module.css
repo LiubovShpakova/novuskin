@@ -50,6 +50,8 @@
     border-bottom   : 1px solid rgba(72, 67, 61, 0.2);
     width           : 100%;
     margin-bottom   : 30px;
+    transition      : .5s all ease;
+
 }
 
 .form_input:hover,
@@ -82,4 +84,9 @@
     margin-top      : 50px;
     border          : none;
     cursor          : pointer;
+    transition      : .5s all ease;
+}
+
+.form_button:hover {
+    background-color: rgba(46, 51, 60, .5);
 }

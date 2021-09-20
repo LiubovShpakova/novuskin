@@ -23,7 +23,13 @@
 .articles_img {
   max-width    : 251px;
   border-radius: 15px;
-  margin       : 0px 0px 26px 0px;
+  margin       : 12px 0px 26px 0px;
+  transition   : .5s all ease;
+}
+
+.articles_img:hover,
+.articles_img:focus {
+  transform: scale(1.1);
 }
 
 .articles_slider_title {
@@ -99,11 +105,16 @@
   margin-right: 20px;
 }
 
+
+
 .members {
   display        : flex;
   align-items    : center;
   min-height     : 307px;
   justify-content: space-between;
+}
+.members_box {
+  padding: 5px;
 }
 
 .members_title {
@@ -138,6 +149,7 @@
   font-weight   : 500;
   font-style    : italic;
   font-family   : "Montserrat";
+  padding: 5px;
 }
 
 .members_button {
@@ -150,6 +162,11 @@
   text-align      : center;
   border          : none;
   padding         : 18px 31px 16px 30px;
-  background-color: #efcbbb;
+  background-color: #e2b29a;
+  transition      : .5s all ease;
   text-transform  : uppercase;
+}
+
+.members_button:hover {
+  background-color: #efcbbb;
 }

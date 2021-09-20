@@ -88,7 +88,7 @@
     min-height      : 172px;
     background-color: #e2b29a;
     margin          : 0px 0px 22px 0px;
-    padding         : 31px 5px 0px 39px;
+    padding         : 31px 10px 0px 30px;
 }
 
 .footer_info_block_cons_title {
@@ -121,6 +121,11 @@
     padding         : 17px;
     border          : none;
     margin          : 0px 0px 22px 0px;
+    transition      : .5s all ease;
+}
+
+.footer_info_block_cons_btn:hover {
+    background-color: rgba(46, 51, 60, .5);
 }
 
 .footer_info_block_cons_form_label {
@@ -131,7 +136,7 @@
     font-family   : "Montserrat";
     text-transform: uppercase;
     display       : block;
-    margin        : 0px 0px 16px 39px;
+    margin        : 0px 0px 16px 30px;
 }
 
 .footer_info_block_cons_form_box {
@@ -162,6 +167,14 @@
     text-transform  : uppercase;
     border          : 1px solid #000001;
     padding         : 16px 18px;
+    transition      : .5s all ease;
+    width: 134px;
+}
+
+.footer_info_block_cons_form_btn:hover {
+    background-color: rgba(0, 0, 1, .5);
+    ;
+    border: 1px solid rgba(0, 0, 1, .5);
 }
 
 .footer_navproducts {
