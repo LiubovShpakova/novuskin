@@ -85,6 +85,7 @@ img {
 
 .treatments_slider {
   padding: 54px 0px 0px 187px;
+   padding-left: 15%;
 }
 
 .treatments_slider>.slick-slider {

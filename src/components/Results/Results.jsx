@@ -57,6 +57,22 @@ export default function Results(props) {
     slidesToScroll: 4,
     speed: 2500,
     cssEase: 'ease',
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        }
+      }, {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      }
+    ],
+    mobileFirst: true,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
   }
